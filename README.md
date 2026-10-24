@@ -9,5 +9,11 @@ The AND/OR/AND-OR operation only happens on the Access signal. All other bus sig
 
 The mode of operation is selected by jumpers on the board. 
 
+## Compatability
+
+This is compatible with most MakeACS components, with the following caveats;
+* If used with a communicative or multi-channel device, the Primary reader must always be active (essentially only usable in AND mode).
+* The Secondary reader is always treated as if it is a single-channel device.
+
 ## License
 This project is licensed under the CERN-OHL-S 2.0 License. See LIECENSE.txt for more information.
